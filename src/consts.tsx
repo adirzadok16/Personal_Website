@@ -52,7 +52,7 @@ export const skills: SkillCategory[] = [
   },
   {
     category: "Backend Development",
-    items: ["Express", "FastAPI", "Spring","Node.js" , "Error handling"],
+    items: ["Express", "FastAPI", "Spring","Node.js" , "Error handling","Redis"],
   },
   {
     category: "Databases",
@@ -88,19 +88,18 @@ export const projects: Project[] = [
     key_skiils: ["Services", "Java", "Firebase", "Material Design"],
   },
   {
-    title: "Meal Match App",
-    description: "Real-time Android application in Kotlin connecting restaurants and charities to redistribute surplus food efficiently. Implemented donation management, push notifications, and dual user interfaces using Firebase and Material Design.",
-    inProgress: false,
-    link: "https://github.com/adirzadok16/Meal-Match-App",
-    key_skiils: ["Kotlin", "UI/UX", "Firebase", "Material Design"],
-    
-  },
-  {
     title: "Job_Hunter",
     description: "Full-Stack system that searches for relevant jobs, analyzes job descriptions, and automatically optimizes user resumes, using a React frontend and a Python-based backend.",
     inProgress: true,
     link: "https://github.com/adirzadok16/Job_Hunter",
     key_skiils: ["React.js", "Python", "FastAPI", "LangChain", "LangGraph",]
+  },
+   {
+    title: "AI Code Reviewer",
+    description: "A Full Stack microservices-based system that automatically reviews code using artificial intelligence. It provides feedback on submitted code, keeps a history of reviews, and manages users efficiently..",
+    inProgress: true,
+    link: "https://github.com/adirzadok16/AI-Code-Reviewer",
+    key_skiils:  ["Node.js + TypeScript", "React.js", "Express", "LangChain"]
   },
   {
     title: "Personal Portfolio Website",
@@ -108,6 +107,14 @@ export const projects: Project[] = [
     inProgress: false,
     link: "https://github.com/adirzadok16/Personal_Website",
     key_skiils: ["React.js", "TypeScript", "Tailwind CSS", "Vite","GitHub Pages"]
+  },
+  {
+    title: "Meal Match App",
+    description: "Real-time Android application in Kotlin connecting restaurants and charities to redistribute surplus food efficiently. Implemented donation management, push notifications, and dual user interfaces using Firebase and Material Design.",
+    inProgress: false,
+    link: "https://github.com/adirzadok16/Meal-Match-App",
+    key_skiils: ["Kotlin", "UI/UX", "Firebase", "Material Design"],
+    
   },
 ];
 
